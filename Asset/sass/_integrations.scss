@@ -1,0 +1,71 @@
+.integrations {
+    &-container {
+        max-width: 1490px;
+        padding: 0 15px;
+        margin: 0 auto 170px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-brand {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        grid-gap: 85px;
+        max-width: 480px;
+    }
+
+    &-content {
+        width: 100%;
+        max-width: 688px;
+    }
+
+    // &-caption {
+    //     font-weight: 400;
+    //     font-size: 20px;
+    //     line-height: 27px;
+    //     letter-spacing: 0.2em;
+    //     color: #525596;
+    //     margin-bottom: 33px;
+    //     padding-left: 110px;
+    //     position: relative;
+
+    //     &::before {
+    //         position: absolute;
+    //         content: "";
+    //         background-color: #525596;
+    //         left: 0;
+    //         width: 80px;
+    //         height: 1px;
+    //         position: absolute;
+    //         top: 50%;
+    //         transform: translateY(-50%);
+    //     }
+    // }
+
+    &-heading {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 160%;
+        color: $primary-color;
+        max-width: 505px;
+        width: 100%;
+        margin-bottom: 30px;
+
+        span {
+            color: $secondary-color;
+        }
+    }
+
+    &-desc {
+        font-family: $font-secondary;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 180%;
+        color: $gray;
+        max-width: 675px;
+        width: 100%;
+        margin-bottom: 44px;
+    }
+}

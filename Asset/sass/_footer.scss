@@ -1,0 +1,115 @@
+.footer {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 74px 0 40px 0;
+    background-color: #252641;
+
+    &-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 40px;
+        margin-bottom: 95px;
+
+        &-title {
+            width: 100%;
+            max-width: 156px;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 33px;
+            letter-spacing: 0.04em;
+            color: #ffff;
+        }
+    }
+
+    &-caption {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 39px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #B2B3CF;
+        margin-bottom: 20px;
+    }
+
+    &-subcribe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 20px;
+        margin-bottom: 97px;
+
+        &-email {
+            display: flex;
+            align-items: center;
+            width: 400px;
+            height: 60px;
+            border: 1px solid #83839A;
+            border-radius: 80px;
+
+            span {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: calc(30 / 20);
+                text-align: center;
+                letter-spacing: 0.04em;
+                color: #83839A;
+                padding: 15px 0 15px 30px;
+                cursor: text;
+            }
+        }
+
+        &-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 179px;
+            height: 60px;
+            background: linear-gradient(105.5deg, #545AE7 19.57%, #393FCF 78.85%);
+            border-radius: 60px;
+
+            &-link {
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 33px;
+                color: $white;
+                text-decoration: none;
+                padding: 14px 34px;
+            }
+        }
+    }
+
+    &-terms {
+        margin-bottom: 20px;
+
+        &-menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 40px;
+        }
+
+        &-list {
+            &-link {
+                text-decoration: none;
+                color: #B2B3CF;
+            }
+        }
+    }
+
+    &-coppyright {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #B2B3CF;
+    }
+}

@@ -1,0 +1,28 @@
+.company {
+    margin-bottom: 163px;
+
+    &-container {
+        max-width: 1367.09px;
+        margin: 0 auto;
+    }
+
+    &-heading {
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        text-align: center;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 160%;
+        color: $gray;
+        margin-bottom: 33px;
+    }
+
+    &-logos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0 75.74px;
+    }
+}

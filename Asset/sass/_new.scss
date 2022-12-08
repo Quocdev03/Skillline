@@ -1,0 +1,98 @@
+.news {
+    margin-bottom: 170px;
+
+    &-container {
+        max-width: 1610px;
+        padding: 0 25px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        gap: 0 70px;
+    }
+
+    &-more {
+        &-image {
+            margin-bottom: 40px;
+        }
+
+        &-button {
+            margin-bottom: 22px;
+
+            &-link {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 180%;
+                letter-spacing: 0.02em;
+                color: $gray-darker;
+                padding: 2px 36px;
+                background-color: $secondary-color;
+                border-radius: 80px;
+                text-decoration: none;
+            }
+        }
+
+        &-title {
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 180%;
+            color: inherit;
+            width: 100%;
+            max-width: 609px;
+            margin-bottom: 20px;
+        }
+
+        &-desc {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 180%;
+            letter-spacing: 0.02em;
+            color: $gray;
+            margin-bottom: 28px;
+            max-width: 609px;
+            margin-bottom: 20px;
+        }
+
+        &-read {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 180%;
+            letter-spacing: 0.02em;
+            text-decoration-line: underline;
+            color: $gray;
+        }
+    }
+
+    &-release {
+        &-item {
+            display: flex;
+            align-items: center;
+            gap: 0 41px;
+            width: 100%;
+            max-width: 811px;
+            margin-bottom: 35px;
+
+            &-content {
+                &-heading {
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 180%;
+                    color: inherit;
+                    width: 100%;
+                    max-width: 486px;
+                    margin-bottom: 22px;
+                }
+
+                &-desc {
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: $gray;
+                    line-height: 180%;
+                    letter-spacing: 0.02em;
+                    width: 100%;
+                    max-width: 455px;
+                }
+            }
+        }
+    }
+}
